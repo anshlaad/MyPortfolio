@@ -262,6 +262,19 @@ p {
 	animation-delay: 2.5s;
 }
 
+#hero {
+    background-image: url('./bg.png'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px; /* Adds space for better responsiveness */
+}
 /* End Hero Section */
 
 /* Services Section */
